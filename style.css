@@ -1,0 +1,31 @@
+.cart {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#checkout-btn {
+    background: #2a9d8f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
