@@ -6,6 +6,8 @@
     <title>Shop - Fall Vibes Smoke Shop</title>
     <link rel="stylesheet" href="css/styles.css">
     <script defer src="js/cart.js"></script>
+    <!-- Include Stripe.js -->
+    <script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
     <header>
@@ -45,6 +47,8 @@
         <ul id="cart-items"></ul>
         <p>Total: $<span id="total-price">0.00</span></p>
         <button id="checkout-btn">Checkout</button>
+        <div id="stripe-button-container"></div> <!-- Stripe Button Container -->
     </section>
 </body>
 </html>
+
